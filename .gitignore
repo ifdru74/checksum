@@ -30,3 +30,27 @@
 *.exe
 *.out
 *.app
+
+# Project files
+*.vcxproj
+*.vcxproj.*
+*.sln
+CMakeCache.txt
+*.cmake
+*.vsidx
+.vs/*
+*.suo
+*.db
+*.ipch
+*.recipe
+*.lastbuildstate
+*.tlog
+*.idb
+*.pdb
+*.ilk
+*.log
+*.lock
+CMakeFiles/*
+Debug/*
+Release/*
+x64/*
