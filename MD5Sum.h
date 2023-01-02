@@ -1,6 +1,7 @@
 #pragma once
 #if defined(_MSC_VER) || defined(__BORLANDC__)
 #define MD5_DIGEST_LENGTH 16
+#include <wincrypt.h>
 #else // defined(_MSC_VER) || defined(__BORLANDC__)
 #include <openssl/md5.h>
 #ifndef HCRYPTHASH

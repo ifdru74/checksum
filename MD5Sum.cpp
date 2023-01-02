@@ -2,6 +2,7 @@
 #include <iostream>
 #include <fstream>
 #if defined(_MSC_VER) || defined(__BORLANDC__)
+#include <Windows.h>
 #include <wincrypt.h>
 #endif
 #include "MD5Sum.h"
