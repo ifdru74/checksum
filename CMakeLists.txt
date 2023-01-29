@@ -26,4 +26,7 @@ target_link_libraries(testCheckSum crypto_checksum)
 add_test(checkSumTest testCheckSum )
 enable_testing()
 
+file(GLOB INT_FILES CheckSum.h fileSum.h MD5Sum.h Crc32Sum.h dll_export.h)
 
+install(FILES ${INT_FILES} DESTINATION include/checksum)
+install(TARGETS crypto_checksum LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
